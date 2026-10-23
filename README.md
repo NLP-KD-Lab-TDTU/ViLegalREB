@@ -1,6 +1,6 @@
 # ViLegalREB: Vietnamese Legal Retrieval Embedding Benchmark
 
-**Quang Huy Nguyen, Tri Hieu Phan, Dong Duong Le, Anh-Cuong Le and Trong Chi Duong**
+**Quang Huy Nguyen, Tri Hieu Phan, Dong Duong Le, Anh-Cuong Le and Trong-Chi Duong**
 
 [![arXiv](https://img.shields.io/badge/arXiv-TBA-b31b1b.svg)](https://arxiv.org/) [![HuggingFace](https://img.shields.io/badge/HuggingFace-TBA-e28743.svg)](https://huggingface.co/datasets/NLP-KD-Lab-TDTU/ViLegalREB) 
 
