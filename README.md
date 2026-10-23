@@ -4,12 +4,9 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-TBA-b31b1b.svg)](https://arxiv.org/) [![HuggingFace](https://img.shields.io/badge/HuggingFace-TBA-e28743.svg)](https://huggingface.co/datasets/NLP-KD-Lab-TDTU/ViLegalREB) 
 
-
 ## Abstract
 
-The rapid advancement of text embedding models has improved semantic representation learning across a wide range of natural language processing applications. However, despite the increasing demand for legal AI systems in Vietnamese, there is currently no standardized benchmark for evaluating embedding models on Vietnamese legal text, limiting fair comparison and the development of domain-specific representations. We introduce **ViLegalEB**, the first comprehensive benchmark for Vietnamese legal text embedding evaluation. **ViLegalEB** comprises *21 datasets spanning 7 representative embedding tasks, covering semantic similarity, retrieval, classification, clustering, reranking, pair classification and summarization* across diverse legal documents and real-world legal scenarios. To ensure high annotation quality while maintaining scalability, we adopt a hybrid annotation pipeline in which a manually annotated expert-verified subset is used as a gold standard to evaluate multiple large language models (LLMs), after which the best-performing LLM is selected to annotate the remaining data, followed by quality control procedures.
-
-<!-- ## Dataset -->
+Retrieving statutory grounds for citizen inquiries requires distinguishing provisions that directly govern an issue from supporting legal context and merely topical matches. We introduce ViLegalREB, a Vietnamese statute retrieval benchmark comprising 1,574 reformulated citizen inquiries across 32 legal domains and 26,317 graded query--provision judgments over 3,284,399 chunks from 96,215 normative documents. Construction combines citation extraction, query auditing, BM25-based candidate mining with dense reranking, multi-model relevance assessment, and blind review by three legal specialists. We evaluate BM25 and ten dense bi-encoders using full-corpus retrieval and dense reranking of 5,000 BM25 candidates per query. BM25 achieves the highest reported nDCG@10 (26.02), while BGE-M3 achieves the highest Recall@100 (55.86) in full-corpus retrieval (scores scaled by 100). Two-stage retrieval improves nDCG@10 for all evaluated dense models but slightly reduces BGE-M3's Recall@100. Incomplete judgments and selective human review limit the interpretation of these results.
 
 ## Citation
 
